@@ -1,3 +1,16 @@
+# Ignore data
+data/*
+
+# Ignore virtual environnements beginning by 'env' or 'venv'
+env/
+venv/
+env*/
+venv*/
+
+# Ignore folder finishing by env
+*env/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
